@@ -33,5 +33,5 @@ def nyc_pigeon_organizer(pigeon_data)
   #i think pigeon_list exists at this level, so now I have to grab 
 end
 
-nyc_pigeon_organizer(pigeon_data)
+
 
