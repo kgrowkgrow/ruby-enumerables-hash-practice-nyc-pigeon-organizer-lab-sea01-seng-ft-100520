@@ -32,7 +32,6 @@ def nyc_pigeon_organizer(data)
    end
      final_hash[key] = value #(something done to it like + 3)
   end 
-  binding.pry
 end  
 
 nyc_pigeon_organizer(pigeon_data)
