@@ -30,10 +30,11 @@ def nyc_pigeon_organizer(pigeon_data)
     end
   end 
   pigeon_list
-  #i think pigeon_list exists at this level, so now I have to grab 
+  #i think pigeon_list exists at this level, so now I have to grab
+          binding.pry
 end
 
 nyc_pigeon_organizer(pigeon_data)
-        binding.pry
+
 
 
