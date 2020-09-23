@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(pigeon_data)
       name_list.each do |name|
         pigeon_list[name] = {} #{name => attribute_list} 
         binding.pry
-          attribute_list => 
+          #attribute_list => 
       end 
     end
   end 
