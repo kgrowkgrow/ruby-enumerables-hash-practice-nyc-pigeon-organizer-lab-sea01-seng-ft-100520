@@ -27,7 +27,6 @@ def nyc_pigeon_organizer(data)
          if !final_hash[name]
            final_hash[name] = {}
            #this i guess is where the magic happens
-         end 
        end 
      end 
    end
