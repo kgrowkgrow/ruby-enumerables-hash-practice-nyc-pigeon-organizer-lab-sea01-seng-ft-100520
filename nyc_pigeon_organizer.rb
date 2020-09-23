@@ -22,9 +22,8 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
    data.each_with_object({}) do |(key, value), final_hash| #(aka new hash)
-     binding.pry
      value.each do |inner_key, names|
-       something happens
+            binding.pry
    end
      final_hash[key] = value #(something done to it like + 3)
   end 
