@@ -25,6 +25,7 @@ def nyc_pigeon_organizer(pigeon_data)
     option_list.each do |option, name_list|
       name_list.each do |name|
         pigeon_list[name] = {}
+        binding.pry
       end 
     end
   end 
