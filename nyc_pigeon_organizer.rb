@@ -40,8 +40,8 @@ nyc_pigeon_organizer(pigeon_data)
 
 
 def nyc_pigeon_organizer(data)
-  # data.each_with_object({}) do |(key, value), accumulator (aka new hash)|
-   #  accumulator[key] = value (something done to it like + 3)
+  # data.each_with_object({}) do |(key, value), final_hash (aka new hash)|
+   #  final_hash[key] = value (something done to it like + 3)
   end 
 end  
 
