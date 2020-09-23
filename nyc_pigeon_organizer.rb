@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
        names.each do |name|
          if !final_array[name]
            #this i guess is where the magic happens
+         end 
        end 
      end 
    end
