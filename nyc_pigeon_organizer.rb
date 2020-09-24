@@ -21,23 +21,21 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-   data.each_with_object({}) do |(key, value), final_hash| #(aka new hash)
+   final_results = data.each_with_object({}) do |(key, value), final_hash| 
      value.each do |inner_key, names|
        names.each do |name|
          if !final_hash[name]
            final_hash[name] = {}
            #this i guess is where the magic happens
-             binding.pry
        end 
        if !final_hash[name][key]
          final_hash[name][key] = []
        end 
        final_hash[name][key].push(inner_key)
      end 
-     #here?
    end
-     final_hash[key] = value #(something done to it like + 3)
   end 
+  binding.pry
 end  
 
 nyc_pigeon_organizer(pigeon_data)
