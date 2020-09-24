@@ -29,6 +29,8 @@ def nyc_pigeon_organizer(data)
            #this i guess is where the magic happens
              binding.pry
        end 
+       if !final_hash[name][key]
+         
      end 
      #here?
    end
