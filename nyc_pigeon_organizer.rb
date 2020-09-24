@@ -26,7 +26,6 @@ def nyc_pigeon_organizer(data)
        names.each do |name|
          if !final_hash[name]
            final_hash[name] = {}
-           #this i guess is where the magic happens
        end 
        if !final_hash[name][key]
          final_hash[name][key] = []
