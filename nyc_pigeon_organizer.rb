@@ -21,16 +21,16 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-   final_results = data.each_with_object({}) do |(key, value), final_hash| 
+   final_results = data.each_with_object({}) do |(key, value), final_array| 
      value.each do |inner_key, names|
        names.each do |name|
-         if !final_hash[name]
-           final_hash[name] = {}
+         if !final_array[name]
+           final_array[name] = {}
        end 
-       if !final_hash[name][key]
+       if !final_array[name][key]
          final_hash[name][key] = []
        end 
-       final_hash[name][key].push(inner_key.to_s)
+       final_array[name][key].push(inner_key.to_s)
      end 
    end
   end 
