@@ -31,14 +31,14 @@ def nyc_pigeon_organizer(data)
        if !final_hash[name][key]
          final_hash[name][key] = []
        end 
-       final_hash[name][key].push(inner_key).to_s
+       final_hash[name][key].push(inner_key)
      end 
    end
   end 
-  #binding.pry
+  binding.pry
 end  
 
-#nyc_pigeon_organizer(pigeon_data)
+nyc_pigeon_organizer(pigeon_data)
 
 
 
@@ -58,36 +58,6 @@ end
  # i think pigeon_list exists at this level, so now I have to grab
  #         binding.pry
 #end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
