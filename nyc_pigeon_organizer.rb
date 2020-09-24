@@ -35,10 +35,10 @@ def nyc_pigeon_organizer(data)
      end 
    end
   end 
-  binding.pry
+ # binding.pry
 end  
 
-nyc_pigeon_organizer(pigeon_data)
+#nyc_pigeon_organizer(pigeon_data)
 
 
 
